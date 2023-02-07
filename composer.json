@@ -17,12 +17,24 @@
         "wildcards",
         "wildcard matching"
     ],
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html tests/coverage"
+    },
     "require": {
         "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
             "Okapi\\Wildcards\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Okapi\\Wildcards\\Tests\\": "tests/"
         }
     }
 }

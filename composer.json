@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "type": "library",
     "homepage": "https://github.com/okapi-web",
+    "license": "MIT",
     "authors": [
         {
             "name": "Walter Woshid",

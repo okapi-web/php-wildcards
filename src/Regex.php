@@ -2,6 +2,8 @@
 
 namespace Okapi\Wildcards;
 
+use Okapi\Wildcards\Exceptions\WildcardException;
+
 /**
  * # Regex Helper
  *
@@ -12,6 +14,8 @@ class Regex
     private ?string $wildcard = null;
 
     /**
+     * Regex constructor.
+     *
      * @param string $regex
      */
     public function __construct(private string $regex) {}
@@ -40,7 +44,8 @@ class Regex
         $regex = str_replace('\)', ')', $regex);
         $regex = str_replace('\[', '(', $regex);
         $regex = str_replace('\]', ')?', $regex);
-        $regex = str_replace('\|', ')|(', $regex);
+        $regex = str_replace('\|', ')|(?:', $regex);
+        $regex = "(?:$regex)";
 
         $regex = new self("/^($regex)\$/");
         $regex->wildcard = $wildcard;
@@ -77,7 +82,15 @@ class Regex
      */
     public function match(string $subject): bool
     {
-        return preg_match($this->regex, $subject) === 1;
+        $result = @preg_match($this->regex, $subject);
+
+        if ($result === false) {
+            $lastError = preg_last_error();
+
+            throw new WildcardException("Regex error: $lastError");
+        }
+
+        return $result === 1;
     }
 
     /**

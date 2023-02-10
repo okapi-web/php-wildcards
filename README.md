@@ -19,8 +19,8 @@
   </a>
 
   <!-- Packagist -->
-  <a href="https://packagist.org/packages/okapi-web/php-wildcards" target="_blank">
-    <img alt="Packagist" src="https://img.shields.io/packagist/v/okapi-web/php-wildcards?label=Packagist&labelColor=ebdbb2&style=flat&color=fe8019&logo=packagist"/>
+  <a href="https://packagist.org/packages/okapi/wildcards" target="_blank">
+    <img alt="Packagist" src="https://img.shields.io/packagist/v/okapi/wildcards?label=Packagist&labelColor=ebdbb2&style=flat&color=fe8019&logo=packagist"/>
   </a>
 
   <!-- Build -->
@@ -55,7 +55,7 @@
 ## Installation
 
 ```shell
-composer require okapi-web/php-wildcards
+composer require okapi/wildcards
 ```
 
 
@@ -98,7 +98,7 @@ $regex->matches('index_2.php'); // true
 
 ## Testing
 
-- Run `composer run-script test`
+- Run `composer run-script test`<br>
   or
 - Run `composer run-script test-coverage`
 

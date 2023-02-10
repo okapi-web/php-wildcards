@@ -1,6 +1,6 @@
 <?php
 
-namespace Okapi\Wildcards\Tests\unit;
+namespace Okapi\Wildcards\Tests\Unit;
 
 use Okapi\Wildcards\Regex;
 use PHPUnit\Framework\TestCase;

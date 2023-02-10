@@ -1,6 +1,6 @@
 <?php
 
-namespace Okapi\Wildcards\Tests\functional;
+namespace Okapi\Wildcards\Tests\Functional;
 
 use Okapi\Wildcards\Exceptions\WildcardException;
 use Okapi\Wildcards\Regex;

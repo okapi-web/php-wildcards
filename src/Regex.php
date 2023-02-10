@@ -80,7 +80,7 @@ class Regex
      *
      * @return bool
      */
-    public function match(string $subject): bool
+    public function matches(string $subject): bool
     {
         $result = @preg_match($this->regex, $subject);
 

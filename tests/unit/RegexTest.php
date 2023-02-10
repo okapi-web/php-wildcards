@@ -33,8 +33,8 @@ class RegexTest extends TestCase
     {
         $regex = Regex::fromWildcard('t*st');
 
-        $this->assertTrue($regex->match('test'));
-        $this->assertFalse($regex->match('test2'));
+        $this->assertTrue($regex->matches('test'));
+        $this->assertFalse($regex->matches('test2'));
     }
 
     public function testToString(): void

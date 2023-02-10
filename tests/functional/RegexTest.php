@@ -118,12 +118,12 @@ class RegexTest extends TestCase
         if (gettype($expected) === 'boolean') {
             $this->assertEquals(
                 $expected,
-                $regex->match($test),
+                $regex->matches($test),
                 "Failed to test wildcard '$wildcard' for '$test'."
             );
         } else {
             $this->expectException(WildcardException::class);
-            $regex->match($test);
+            $regex->matches($test);
         }
     }
 

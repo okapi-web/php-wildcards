@@ -1,9 +1,9 @@
 {
-    "name": "okapi-web/php-wildcards",
-    "description": "PHP Wildcards is a library that allows you to use wildcards in your PHP code.",
-    "version": "1.1.0",
+    "name": "okapi/wildcards",
+    "description": "PHP Wildcards is a PHP library that converts wildcards to regular expressions.",
+    "version": "1.0.0",
     "type": "library",
-    "homepage": "https://github.com/okapi-web",
+    "homepage": "https://github.com/okapi-web/php-wildcards",
     "license": "MIT",
     "authors": [
         {

@@ -18,6 +18,11 @@
     <img alt="PHP: >=8.0" src="https://img.shields.io/badge/PHP->=8.0-4C5789.svg?labelColor=ebdbb2&style=flat&logo=php&logoColor=4C5789"/>
   </a>
 
+  <!-- Packagist -->
+  <a href="https://packagist.org/packages/okapi-web/php-wildcards" target="_blank">
+    <img alt="Packagist" src="https://img.shields.io/packagist/v/okapi-web/php-wildcards?label=Packagist&labelColor=ebdbb2&style=flat&color=fe8019&logo=packagist"/>
+  </a>
+
   <!-- Build -->
   <!--suppress HtmlUnknownTarget -->
   <a href="../../actions/workflows/tests.yml" target="_blank">

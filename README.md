@@ -34,17 +34,17 @@
 <p align="center">
   <!-- Coverage - PHP 8.0 -->
   <a href="https://app.codecov.io/gh/okapi-web/php-wildcards/flags" target="_blank">
-    <img alt="Coverage - PHP 8.0" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=ubuntu-latest-8.0&label=Coverage - PHP 8.0&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
+    <img alt="Coverage - PHP 8.0" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=os-ubuntu-latest_php-8.0&label=Coverage - PHP 8.0&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
   </a>
 
   <!-- Coverage - PHP 8.1 -->
   <a href="https://app.codecov.io/gh/okapi-web/php-wildcards/flags" target="_blank">
-    <img alt="Coverage - PHP 8.1" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=ubuntu-latest-8.1&label=Coverage - PHP 8.1&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
+    <img alt="Coverage - PHP 8.1" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=os-ubuntu-latest_php-8.1&label=Coverage - PHP 8.1&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
   </a>
 
   <!-- Coverage - PHP 8.2 -->
   <a href="https://app.codecov.io/gh/okapi-web/php-wildcards/flags" target="_blank">
-    <img alt="Coverage - PHP 8.2" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=ubuntu-latest-8.2&label=Coverage - PHP 8.2&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
+    <img alt="Coverage - PHP 8.2" src="https://img.shields.io/codecov/c/github/okapi-web/php-wildcards?flag=os-ubuntu-latest_php-8.2&label=Coverage - PHP 8.2&labelColor=ebdbb2&style=flat&logo=codecov&logoColor=FFC107&color=FFC107"/>
   </a>
 </p>
 

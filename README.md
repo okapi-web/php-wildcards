@@ -69,20 +69,20 @@ use Okapi\Wildcards\Regex;
 
 // Simple wildcard
 $regex = Regex::fromWildcard('*.php');
-$regex->match('index.php'); // true
-$regex->match('index.html'); // false
+$regex->matches('index.php'); // true
+$regex->matches('index.html'); // false
 
 // Wildcard with groups
 $regex = Regex::fromWildcard('(*.php)|(*.html)');
-$regex->match('index.php'); // true
-$regex->match('index.html'); // true
-$regex->match('index.js'); // false
+$regex->matches('index.php'); // true
+$regex->matches('index.html'); // true
+$regex->matches('index.js'); // false
 
 // Wildcard with optional characters
 $regex = Regex::fromWildcard('index[*].php');
-$regex->match('index.php'); // true
-$regex->match('index.test.php'); // true
-$regex->match('index_2.php'); // true
+$regex->matches('index.php'); // true
+$regex->matches('index.test.php'); // true
+$regex->matches('index_2.php'); // true
 
 ```
 

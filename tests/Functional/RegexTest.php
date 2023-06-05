@@ -105,6 +105,18 @@ class RegexTest extends TestCase
                 'index[*].php' => true,
                 'index[*].js'  => false,
             ],
+
+            'getPrice' => [
+                'get(Price|Total)' => true,
+            ],
+
+            'getTotal' => [
+                'get(Price|Total)' => true,
+            ],
+
+            'getCost' => [
+                'get(Price|Total)' => false,
+            ],
         ]
     ];
 

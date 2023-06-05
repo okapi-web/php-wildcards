@@ -40,11 +40,11 @@ class Regex
 
         $regex = str_replace('\*', '.*', $regex);
         $regex = str_replace('\?', '.', $regex);
-        $regex = str_replace('\(', '(', $regex);
+        $regex = str_replace('\(', '(?:', $regex);
         $regex = str_replace('\)', ')', $regex);
         $regex = str_replace('\[', '(', $regex);
         $regex = str_replace('\]', ')?', $regex);
-        $regex = str_replace('\|', ')|(?:', $regex);
+        $regex = str_replace('\|', '|', $regex);
         $regex = "(?:$regex)";
 
         $regex = new self("/^($regex)\$/");
